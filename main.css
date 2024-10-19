@@ -251,6 +251,7 @@ body {
 .btn {
   display: inline-block;
   background-color: var(--color-primary);
+  color: #202434;
   font-size: 1.6rem;
   font-family: inherit;
   font-weight: 500;
@@ -912,6 +913,7 @@ body {
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
+    z-index: 9999;
   }
 
   .nav-open .main-nav {
